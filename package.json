@@ -1,0 +1,35 @@
+{
+  "name": "api-mg",
+  "version": "1.0.0",
+  "description": "api mailgun para envio de emails",
+  "main": "index.js",
+  "engine": {
+    "node": 22
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsup src",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurviana1/api-mg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurviana1/api-mg/issues"
+  },
+  "homepage": "https://github.com/arthurviana1/api-mg#readme",
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "@types/node": "^22.13.10",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "form-data": "^4.0.2",
+    "mailgun.js": "^12.0.1",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
